@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+
 <html lang="fr" prefix="og: https://ogp.me/ns#">
 <head>
   <meta charset="utf-8" />
-  <meta name="author" content="Mathieu MANGEOT" />
+  <meta name="author" content="Zack David" />
   <meta name="keywords" content="document html5 mmi" />
   <meta name="description" content="Document minimal html5 en DUT MMI" />
   <!-- Affichage standard sur périphérique mobile pour site adaptatif -->
@@ -15,7 +15,7 @@
   <meta property="og:description" content="Document minimal html5 en DUT MMI" />
   <meta property="og:title" content="Document minimal en MMI" />
   <meta property="og:site_name" content="Document minimal en MMI" />
-  <title>Document minimal en MMI</title>
+  <title>Doc form html</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,18 +23,9 @@
 <body>
     <header>
         <!-- en-tête -->
-            <h1>woaw t'es connecté</h1>
         <nav>
         <!-- menu principal -->
         </nav>
-     </header>        
-        
-        <!-- partie principale -->
-        <section>
-         </section>
-        
-        <footer>
-        <!-- pied de page -->
-        </footer>
+     </header> 
 </body>
 </html>
