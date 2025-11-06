@@ -1,4 +1,7 @@
-
+<?php
+session_start();
+?>
+<!DOCTYPE html>
 <html lang="fr" prefix="og: https://ogp.me/ns#">
 <head>
   <meta charset="utf-8" />
@@ -16,7 +19,7 @@
   <meta property="og:title" content="Document minimal en MMI" />
   <meta property="og:site_name" content="Document minimal en MMI" />
   <title>Doc form html</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css\style.scss">
 </head>
 
 
@@ -26,6 +29,12 @@
         <nav>
         <!-- menu principal -->
         </nav>
-     </header> 
-</body>
-</html>
+    </header> 
+    <?php
+    if(!empty($_SESSION['login'])){
+      echo '<p> connecté en tant que ',$_SESSION['login'],'</p>';
+    }
+    else{
+      echo'<a href="formulaire.php" title="lien vers connection">Connection</a>';
+    }
+    ?>

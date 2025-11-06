@@ -1,10 +1,8 @@
 <?php include('entete.php');
 ?>
 <!-- partie principale -->
-    <form action="connection.php" method="post">
-        <div>
-            <p> Identifiant:<input type="text" name="IDENTIFIANT"></p>
-            <p> Mot de pass:<input type="password" name="MOTDEPASS"></p>
-            <p> Envoi:<input type="submit" value="Envoi"></p>
+    <section>
+        <h2>ceci est un titre</h2>
+        <p id="seConnecter"><a href="formulaire.php" title="lien vers connection">Connection</a></p>
 <?php include('piedDePage.php');
 ?>
